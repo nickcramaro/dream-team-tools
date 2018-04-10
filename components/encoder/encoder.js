@@ -20,10 +20,10 @@ class EncoderDecoder extends HTMLElement {
     }
     
     registerHandlers() {
-        this.refs.base64Encode.onclick = this.base64Encode;
-        this.refs.base64Decode.onclick = this.base64Decode;
-        this.refs.urlEncode.onclick = this.urlEncode;
-        this.refs.urlDecode.onclick = this.urlDecode;
+        this.refs.base64Encode.onclick = this.base64Encode.bind(this);
+        this.refs.base64Decode.onclick = this.base64Decode.bind(this);
+        this.refs.urlEncode.onclick = this.urlEncode.bind(this);
+        this.refs.urlDecode.onclick = this.urlDecode.bind(this);
     }
 
     base64Encode() {
