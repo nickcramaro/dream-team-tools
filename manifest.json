@@ -1,0 +1,22 @@
+{
+    "name": "Dream Team Tools",
+    "version": "1.0",
+    "description": "Common tools for web development",
+    "permissions": ["clipboardRead","clipboardWrite"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/dream-team-16.png",
+            "32": "images/dream-team-32.png",
+            "48": "images/dream-team-48.png",
+            "128": "images/dream-team-128.png"
+        }
+    },
+    "icons": {
+        "16": "images/dream-team-16.png",
+        "32": "images/dream-team-32.png",
+        "48": "images/dream-team-48.png",
+        "128": "images/dream-team-128.png"
+    },
+    "manifest_version": 2
+}
