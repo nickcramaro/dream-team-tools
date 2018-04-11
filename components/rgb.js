@@ -4,9 +4,9 @@ class RgbHex extends HTMLElement {
 
         // creating web component 
         let shadowRoot = this.attachShadow({mode: 'open'});
-        let rgbHexTemplate = document.createElement('template');
-        rgbHexTemplate.innerHTML = this.getTemplateString();
-        this.shadowRoot.appendChild(document.importNode(rgbHexTemplate.content, true));
+        let template = document.createElement('template');
+        template.innerHTML = this.getTemplateString();
+        this.shadowRoot.appendChild(document.importNode(template.content, true));
 
         // creating references to child elements
         this.refs = new Proxy({},{get: this.getFromShadowRoot.bind(this)});

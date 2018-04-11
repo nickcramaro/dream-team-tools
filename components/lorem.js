@@ -4,9 +4,9 @@ class LoremIpsum extends HTMLElement {
 
         // creating web component 
         let shadowRoot = this.attachShadow({mode: 'open'});
-        let loremIpsumTemplate = document.createElement('template');
-        loremIpsumTemplate.innerHTML = this.getTemplateString();
-        this.shadowRoot.appendChild(document.importNode(loremIpsumTemplate.content, true));
+        let template = document.createElement('template');
+        template.innerHTML = this.getTemplateString();
+        this.shadowRoot.appendChild(document.importNode(template.content, true));
 
         // creating references to child elements
         this.refs = new Proxy({},{get: this.getFromShadowRoot.bind(this)});
