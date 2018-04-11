@@ -44,12 +44,14 @@ class EncoderDecoder extends HTMLElement {
 
     getTemplateString() {
         return `
-            <input ref="input" />
-            <input ref="output" />
-            <button ref="base64Encode" >Base64 Encode</button>
-            <button ref="base64Decode">Base64 Decode</button>
-            <button ref="urlEncode">Url Encode</button>
-            <button ref="urlDecode">Url Decode</button>
+            <div>
+                <input ref="input" />
+                <input ref="output" />
+                <button ref="base64Encode" >Base64 Encode</button>
+                <button ref="base64Decode">Base64 Decode</button>
+                <button ref="urlEncode">Url Encode</button>
+                <button ref="urlDecode">Url Decode</button>
+            </div>
         `;
     }
 }
