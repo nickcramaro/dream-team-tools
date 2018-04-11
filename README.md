@@ -1,7 +1,7 @@
 # dream-team-tools
 
 Chrome extension with (eventually) a bunch of helpful web development tools.
-Built using web components and zero dependencies.
+Built using web components with zero dependencies.
 
 ## Roadmap
 - Base64 encode/decode (doneish)
@@ -9,4 +9,5 @@ Built using web components and zero dependencies.
 - Lorem ipsum generator
 - RGB to Hex
 
-Wanna help? [Read the docs.](https://developer.chrome.com/extensions/getstarted)
+[Chrome Extension Docs](https://developer.chrome.com/extensions/getstarted)
+[Web Component Docs](https://en.wikipedia.org/wiki/Rickrolling)

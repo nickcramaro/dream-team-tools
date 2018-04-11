@@ -1,5 +1,6 @@
 <html>
 <head>
+    <script src="index.js"></script>
     <script src="components/encoder.js"></script>
     <script src="components/lorem.js"></script>
     <script src="components/rgb.js"></script>
@@ -7,22 +8,7 @@
 </head>
 <body>
     <div class="container">
-        
-        <ul class="menu" id="menu">
-            <li class="menu__item" id="encodeNav">Encode/Decode</li>
-            <li class="menu__item" id="loremNav">Lorem Ipsum</li>
-            <li class="menu__item" id="rgbNav">Hex/RGB</li>
-        </ul>
-
-        <div class="secondary-menu" id="secondary">
-            <button id="backBtn">Back</button>
-            <encoder-decoder class="secondary-menu__item" id="encodeMenu"></encoder-decoder>
-            <lorem-ipsum class="secondary-menu__item" id="loremMenu"></lorem-ipsum>
-            <rgb-hex class="secondary-menu__item" id="rgbMenu"></rgb-hex>
-        </div>
-
+        <main-component></main-component>
     </div>
-
-    <script src="index.js"></script>
 </body>
 </html>
