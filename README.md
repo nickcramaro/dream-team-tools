@@ -9,5 +9,5 @@ Built using web components with zero dependencies.
 - Lorem ipsum generator
 - RGB to Hex
 
-[Chrome Extension Docs](https://developer.chrome.com/extensions/getstarted)
+[Chrome Extension Docs](https://developer.chrome.com/extensions/getstarted)  
 [Web Component Docs](https://en.wikipedia.org/wiki/Rickrolling)

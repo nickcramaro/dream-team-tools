@@ -21,8 +21,8 @@ class MainComponent extends HTMLElement {
     
     registerHandlers() {
         this.refs.encodeNav.addEventListener('click', this.openMenu.bind(this, this.refs.encodeMenu));
-        this.refs.loremNav.addEventListener('click', this.openMenu.bind(this, this.refs.loremNav));
-        this.refs.rgbNav.addEventListener('click', this.openMenu.bind(this, this.refs.rgbNav));
+        this.refs.loremNav.addEventListener('click', this.openMenu.bind(this, this.refs.loremMenu));
+        this.refs.rgbNav.addEventListener('click', this.openMenu.bind(this, this.refs.rgbMenu));
         this.refs.backBtn.addEventListener('click', this.backToMain.bind(this));
     }
 
